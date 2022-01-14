@@ -1,0 +1,54 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name JedlixSDK
+import Foundation
+@_exported import JedlixSDK
+import Swift
+import SwiftUI
+import WebKit
+import _Concurrency
+public enum DismissButtonStyle : Swift.String {
+  case back
+  case close
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension Foundation.URLSession {
+  
+  #if compiler(>=5.3) && $AsyncAwait
+  @discardableResult
+  public func response(for request: Foundation.URLRequest, delegate: Foundation.URLSessionTaskDelegate? = nil) async throws -> (Foundation.Data, Foundation.URLResponse)
+  #endif
+
+}
+public typealias OnSessionCreated = (_ sessionIdentifier: Swift.String) -> Swift.Void
+@_Concurrency.MainActor(unsafe) public struct JedlixConnectView : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public init(accessToken: Swift.String, userIdentifier: Swift.String, onSessionCreated: JedlixSDK.OnSessionCreated? = nil)
+  @_Concurrency.MainActor(unsafe) public init(accessToken: Swift.String, userIdentifier: Swift.String, sessionIdentifier: Swift.String)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s9JedlixSDK0A11ConnectViewV4bodyQrvp", 0) __
+}
+public enum HTTPError : Swift.Error, Foundation.LocalizedError {
+  case invalidResponse
+  case errorResponse(title: Swift.String? = nil, detail: Swift.String)
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public init(with data: Foundation.Data) throws
+}
+public struct HTTPErrorResponse : Swift.Codable {
+  public let title: Swift.String
+  public let detail: Swift.String
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public var baseURL: Foundation.URL!
+public func configure(with baseURL: Foundation.URL)
+extension JedlixSDK.DismissButtonStyle : Swift.Equatable {}
+extension JedlixSDK.DismissButtonStyle : Swift.Hashable {}
+extension JedlixSDK.DismissButtonStyle : Swift.RawRepresentable {}
