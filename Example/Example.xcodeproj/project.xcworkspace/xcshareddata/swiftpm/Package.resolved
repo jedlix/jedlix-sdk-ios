@@ -12,11 +12,11 @@
       },
       {
         "package": "JedlixSDK",
-        "repositoryURL": "https://github.com/tstanik/jedlixsdk",
+        "repositoryURL": "https://github.com/jedlix/jedlix-sdk-ios",
         "state": {
-          "branch": "main",
-          "revision": "76cafe2e0751fd6667b69b166949e51d4e7f8771",
-          "version": null
+          "branch": null,
+          "revision": "8e3e642adc6de27196a5f0b675718b529a00a37f",
+          "version": "1.0.0"
         }
       },
       {

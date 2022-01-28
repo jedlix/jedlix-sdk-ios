@@ -2,7 +2,7 @@
 
 Jedlix SDK is part of our smart charging platform.
 
-You can use it to connect a vehicle manufacturer account to a user in the Jedlix [Smart Charging API](https://api.jedlix.com/). It takes a user identifier and access token and presents a view to select a vehicle and authenticate with the manufacturer account.
+You can use it to connect a vehicle or charger manufacturer account to a user in the Jedlix [Smart Charging API](https://api.jedlix.com/). It presents a view to select a vehicle or charger and authenticate with the manufacturer account.
 
 ## Requirements
 
@@ -10,63 +10,69 @@ You can use it to connect a vehicle manufacturer account to a user in the Jedlix
 
 ## Installation
 
-### Swift Package Manager
-
 Use [Swift Package Manager](https://www.swift.org/package-manager/) to add Jedlix SDK to your project:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/jedlix/jedlix-sdk-ios.git", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/jedlix/jedlix-sdk-ios.git", .upToNextMajor(from: "1.1.0"))
 ]
 ```
 
 ## Usage
 
-When you sign up for a [Smart Charging API](https://api.jedlix.com/) account, you get a custom `baseURL`. You need to provide it to the SDK, as well as an `accessToken` from your JWT and a `userIdentifier` from the Smart Charging API.
+When you sign up for a [Smart Charging API](https://api.jedlix.com/) account, you get a custom `baseURL`. You need to provide it to the SDK, as well as an `Authentication` implementation.
 
 Configure the SDK:
 
 ```swift
 import JedlixSDK
 
-JedlixSDK.configure(with: baseURL)
+JedlixSDK.configure(
+    baseURL: /* Base URL */,
+    authentication: /* Authentication implementation */
+)
 ```
 
-To start a new connect session, present the following view:
+`Authentication` provides your access token to the SDK. When the token becomes invalid, you should renew it before returning in `getAccessToken`.
 
 ```swift
-JedlixConnectView(
-    accessToken: accessToken,
-    userIdentifier: userIdentifier
-) { sessionIdentifier in
-    // store session identifier
+protocol Authentication {
+    func getAccessToken() async -> String?
 }
 ```
 
-Because a user might leave the app at any moment, you should store the session identifier and continue when they come back using the following constructor:
+To start a vehicle connect session, present the following view:
 
 ```swift
 JedlixConnectView(
-    accessToken: accessToken,
-    userIdentifier: userIdentifier,
-    sessionIdentifier: // session identifier stored previously
+    userIdentifier: "<USER ID>",
+    sessionType: .vehicle
+)
+```
+
+To start a charger connect session, you need to specify a charging location identifier:
+
+```swift
+JedlixConnectView(
+    userIdentifier: "<USER ID>",
+    sessionType: .charger(chargingLocationId: "CHARGING LOCATION ID")
 )
 ```
 
 ## Example
 
-See the included example to learn how to use the `JedlixConnectView`.
+See the included example to learn how to use the SDK.
 
-Open `AppDelegate.swift` and specify your baseURL:
+Open `AppDelegate.swift` and specify your `baseURL`:
 
 ```swift
-JedlixSDK.configure(baseURL: "<YOUR BASE URL>")
+baseURL = URL(string: "<YOUR BASE URL>")!
 ```
 
 (Optional) If you use [Auth0](https://auth0.com/), you can uncomment the following code to authenticate with an Auth0 account directly, assuming the user identifier is stored in JWT body under `userIdentifierKey`.
 
 ```swift
-Authentication.enableAuth0(
+authentication = Auth0Authentication(
     clientId: "<AUTH0 CLIENT ID>",
     domain: "<AUTH0 DOMAIN>",
     audience: "<AUTH0 AUDIENCE>",

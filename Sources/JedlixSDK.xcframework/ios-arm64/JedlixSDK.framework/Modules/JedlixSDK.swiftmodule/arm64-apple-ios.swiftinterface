@@ -26,14 +26,19 @@ extension Foundation.URLSession {
 }
 public typealias OnSessionCreated = (_ sessionIdentifier: Swift.String) -> Swift.Void
 @_Concurrency.MainActor(unsafe) public struct JedlixConnectView : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public init(accessToken: Swift.String, userIdentifier: Swift.String, onSessionCreated: JedlixSDK.OnSessionCreated? = nil)
-  @_Concurrency.MainActor(unsafe) public init(accessToken: Swift.String, userIdentifier: Swift.String, sessionIdentifier: Swift.String)
+  @_Concurrency.MainActor(unsafe) public init(userIdentifier: Swift.String, sessionType: JedlixSDK.ConnectSessionType)
+  @_Concurrency.MainActor(unsafe) public init(userIdentifier: Swift.String, sessionIdentifier: Swift.String)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s9JedlixSDK0A11ConnectViewV4bodyQrvp", 0) __
 }
+public enum ConnectSessionType {
+  case vehicle
+  case charger(chargingLocationId: Swift.String)
+}
 public enum HTTPError : Swift.Error, Foundation.LocalizedError {
+  case notAuthenticated
   case invalidResponse
   case errorResponse(title: Swift.String? = nil, detail: Swift.String)
   public var errorDescription: Swift.String? {
@@ -47,8 +52,14 @@ public struct HTTPErrorResponse : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public var baseURL: Foundation.URL!
-public func configure(with baseURL: Foundation.URL)
+public func configure(baseURL: Foundation.URL, authentication: JedlixSDK.Authentication)
+public protocol Authentication {
+  
+  #if compiler(>=5.3) && $AsyncAwait
+  func getAccessToken() async -> Swift.String?
+  #endif
+
+}
 extension JedlixSDK.DismissButtonStyle : Swift.Equatable {}
 extension JedlixSDK.DismissButtonStyle : Swift.Hashable {}
 extension JedlixSDK.DismissButtonStyle : Swift.RawRepresentable {}

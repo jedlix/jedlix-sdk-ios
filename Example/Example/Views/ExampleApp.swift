@@ -7,22 +7,22 @@
 
 import SwiftUI
 import WebKit
+import JedlixSDK
 
 @main
 struct ExampleApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    @StateObject var authentication = Authentication()
+    @StateObject var user = User.current
     
     var body: some Scene {
         WindowGroup {
             VStack {
-                if let user = authentication.user {
-                    VehicleView(user: user)
-                } else {
-                    AuthenticationView()
+                switch user.state {
+                case .notAuthenticated: AuthenticationView()
+                case .authenticated(let userIdentifier): ConnectView(userIdentifier: userIdentifier)
+                default: EmptyView()
                 }
             }
-            .environmentObject(authentication)
         }
     }
 }

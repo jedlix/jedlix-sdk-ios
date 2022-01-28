@@ -8,17 +8,24 @@
 import UIKit
 import JedlixSDK
 
+var baseURL: URL!
+var authentication: Authentication!
+
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         
-        JedlixSDK.configure(with: URL(string: "<YOUR BASE URL>")!)
-        
-//        Authentication.enableAuth0(
+        baseURL = URL(string: "<YOUR BASE URL>")!
+        authentication = DefaultAuthentication()
+//        authentication = Auth0Authentication(
 //            clientId: "<AUTH0 CLIENT ID>",
 //            domain: "<AUTH0 DOMAIN>",
 //            audience: "<AUTH0 AUDIENCE>",
 //            userIdentifierKey: "<USER IDENTIFIER KEY>"
 //        )
+        JedlixSDK.configure(
+            baseURL: baseURL,
+            authentication: authentication
+        )
         return true
     }
 }
