@@ -7,7 +7,12 @@
 
 import Foundation
 
-struct User {
-    let identifier: String
-    let accessToken: String
+class User: ObservableObject {
+    enum AuthenticationState {
+        case notAuthenticated
+        case authenticated(userIdentifier: String)
+    }
+    
+    static let current = User()
+    @Published var state: AuthenticationState?
 }

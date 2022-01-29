@@ -1,5 +1,5 @@
 //
-//  Vehicle.swift
+//  Charger.swift
 //  Example
 //
 //  Copyright © 2022 Jedlix. All rights reserved.
@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Vehicle: Codable, Identifiable {
-    struct Details: Codable {
+struct Charger: Codable, Identifiable {
+    struct Detail: Codable {
         let brand: String
         let model: String
         
@@ -18,5 +18,6 @@ struct Vehicle: Codable, Identifiable {
     }
     
     let id: String
-    let vehicleDetails: Details
+    let chargingLocationId: String
+    let homeChargerDetail: Detail
 }

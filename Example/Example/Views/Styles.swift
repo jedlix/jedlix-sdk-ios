@@ -18,7 +18,7 @@ struct ExampleTextFieldStyle: TextFieldStyle {
             .autocapitalization(.none)
             .padding()
             .frame(height: Styles.elementHeight)
-            .background(Color.secondary.opacity(0.3))
+            .background(Color(UIColor.systemGray5))
             .cornerRadius(Styles.cornerRadius)
     }
 }
