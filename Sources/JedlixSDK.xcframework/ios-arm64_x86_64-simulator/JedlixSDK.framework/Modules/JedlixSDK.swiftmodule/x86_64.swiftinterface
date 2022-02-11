@@ -24,14 +24,13 @@ extension Foundation.URLSession {
   #endif
 
 }
-public typealias OnSessionCreated = (_ sessionIdentifier: Swift.String) -> Swift.Void
-@_Concurrency.MainActor(unsafe) public struct JedlixConnectView : SwiftUI.View {
+@_Concurrency.MainActor(unsafe) public struct ConnectSessionView : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public init(userIdentifier: Swift.String, sessionType: JedlixSDK.ConnectSessionType)
   @_Concurrency.MainActor(unsafe) public init(userIdentifier: Swift.String, sessionIdentifier: Swift.String)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s9JedlixSDK0A11ConnectViewV4bodyQrvp", 0) __
+  public typealias Body = @_opaqueReturnTypeOf("$s9JedlixSDK18ConnectSessionViewV4bodyQrvp", 0) __
 }
 public enum ConnectSessionType {
   case vehicle

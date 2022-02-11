@@ -19,5 +19,5 @@ struct Charger: Codable, Identifiable {
     
     let id: String
     let chargingLocationId: String
-    let homeChargerDetail: Detail
+    let detail: Detail
 }

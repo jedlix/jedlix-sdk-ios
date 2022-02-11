@@ -14,7 +14,7 @@ Use [Swift Package Manager](https://www.swift.org/package-manager/) to add Jedli
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/jedlix/jedlix-sdk-ios.git", .upToNextMajor(from: "1.1.0"))
+    .package(url: "https://github.com/jedlix/jedlix-sdk-ios.git", .upToNextMajor(from: "1.2.0"))
 ]
 ```
 
@@ -44,7 +44,7 @@ protocol Authentication {
 To start a vehicle connect session, present the following view:
 
 ```swift
-JedlixConnectView(
+ConnectSessionView(
     userIdentifier: "<USER ID>",
     sessionType: .vehicle
 )
@@ -53,13 +53,22 @@ JedlixConnectView(
 To start a charger connect session, you need to specify a charging location identifier:
 
 ```swift
-JedlixConnectView(
+ConnectSessionView(
     userIdentifier: "<USER ID>",
-    sessionType: .charger(chargingLocationId: "CHARGING LOCATION ID")
+    sessionType: .charger(chargingLocationId: "<CHARGING LOCATION ID>")
 )
 ```
 
-## Example
+A user might leave the app at any moment. If the connect session hasn't been finished, you should resume by providing a session identifier you obtain from the Smart Charging API:
+
+```swift
+ConnectSessionView(
+    userIdentifier: "<USER ID>",
+    sessionIdentifier: "<CONNECT SESSION ID>"
+)
+```
+
+### Example
 
 See the included example to learn how to use the SDK.
 

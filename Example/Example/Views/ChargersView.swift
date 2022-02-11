@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import JedlixSDK
 
 struct ChargersView: View {
-    var chargingLocations: [ChargingLocation]
-    var chargers: [Charger]
+    let userIdentifier: String
+    let chargingLocations: [ChargingLocation]
+    let chargers: [Charger]
+    let connectSessions: [ChargerConnectSession]
     let onRemoveCharger: (Charger) -> Void
-    let onConnectCharger: (ChargingLocation) -> Void
+    let onReloadData: () -> Void
+    
+    @State private var isConnectViewPresented = false
     
     var body: some View {
         VStack {
@@ -22,21 +27,10 @@ struct ChargersView: View {
                         Text(chargingLocation.address.description).bold()
                         if let chargers = chargers(at: chargingLocation), chargers.count > 0 {
                             ForEach(chargers) { charger in
-                                HStack {
-                                    Text(charger.homeChargerDetail.description)
-                                    Spacer()
-                                    Button("Remove") {
-                                        onRemoveCharger(charger)
-                                    }
-                                    .foregroundColor(.red)
-                                }
+                                chargerView(chargingLocation: chargingLocation, charger: charger)
                             }
                         } else {
-                            HStack {
-                                Text("No chargers found")
-                                Spacer()
-                                Button("Connect") { onConnectCharger(chargingLocation) }
-                            }
+                            noChargerView(chargingLocation: chargingLocation)
                         }
                     }
                     .sectionBackground()
@@ -44,6 +38,59 @@ struct ChargersView: View {
             } else {
                 Text("No charging locations found")
                     .sectionBackground()
+            }
+        }
+        .onChange(of: isConnectViewPresented) { newValue in
+            if !newValue {
+                onReloadData()
+            }
+        }
+    }
+    
+    func chargerView(chargingLocation: ChargingLocation, charger: Charger) -> some View {
+        HStack {
+            Text(charger.detail.description)
+            Spacer()
+            if let connectSession = connectSessions.first(where: {
+                $0.chargingLocationId == chargingLocation.id &&
+                $0.chargerId == charger.id
+            }) {
+                NavigationLink("Resume", isActive: $isConnectViewPresented) {
+                    ConnectSessionView(
+                        userIdentifier: userIdentifier,
+                        sessionIdentifier: connectSession.id
+                    )
+                }
+            } else {
+                Button("Remove") { onRemoveCharger(charger) }
+                    .foregroundColor(.red)
+            }
+        }
+    }
+    
+    func noChargerView(chargingLocation: ChargingLocation) -> some View {
+        HStack {
+            if let connectSession = connectSessions.first(where: {
+                $0.chargingLocationId == chargingLocation.id &&
+                $0.chargerId == nil
+            }) {
+                Text("Unfinished connect session")
+                Spacer()
+                NavigationLink("Resume", isActive: $isConnectViewPresented) {
+                    ConnectSessionView(
+                        userIdentifier: userIdentifier,
+                        sessionIdentifier: connectSession.id
+                    )
+                }
+            } else {
+                Text("No chargers found")
+                Spacer()
+                NavigationLink("Connect", isActive: $isConnectViewPresented) {
+                    ConnectSessionView(
+                        userIdentifier: userIdentifier,
+                        sessionType: .charger(chargingLocationId: chargingLocation.id)
+                    )
+                }
             }
         }
     }
