@@ -18,5 +18,5 @@ struct Vehicle: Codable, Identifiable {
     }
     
     let id: String
-    let vehicleDetails: Details
+    let details: Details
 }

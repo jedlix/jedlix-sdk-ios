@@ -19,7 +19,7 @@ struct ExampleApp: App {
             VStack {
                 switch user.state {
                 case .notAuthenticated: AuthenticationView()
-                case .authenticated(let userIdentifier): ConnectView(userIdentifier: userIdentifier)
+                case .authenticated(let userIdentifier): ConnectionsView(userIdentifier: userIdentifier)
                 default: EmptyView()
                 }
             }

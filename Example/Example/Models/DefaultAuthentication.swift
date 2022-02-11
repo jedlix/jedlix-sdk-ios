@@ -14,9 +14,11 @@ class DefaultAuthentication {
     
     init() {
         Task {
-            if let accessToken = await getAccessToken(),
+            if await getAccessToken() != nil,
                 case let .success(userIdentifier) = await getUserIdentifier() {
-                authenticate(accessToken: accessToken, userIdentifier: userIdentifier)
+                User.current.state = .authenticated(userIdentifier: userIdentifier)
+            } else {
+                User.current.state = .notAuthenticated
             }
         }
     }
