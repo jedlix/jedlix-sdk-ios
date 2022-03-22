@@ -202,7 +202,7 @@
 			mainGroup = C33BD2302784BE9500D971C4;
 			packageReferences = (
 				C389C75B2785B03F00BDF059 /* XCRemoteSwiftPackageReference "Auth0.swift" */,
-				C3E5D72D27B6693400E8B5A2 /* XCRemoteSwiftPackageReference "jedlix-sdk-ios" */,
+				C3B44C5027E89DEC00A0729D /* XCRemoteSwiftPackageReference "jedlix-sdk-ios" */,
 			);
 			productRefGroup = C33BD23A2784BE9500D971C4 /* Products */;
 			projectDirPath = "";
@@ -466,12 +466,12 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		C3E5D72D27B6693400E8B5A2 /* XCRemoteSwiftPackageReference "jedlix-sdk-ios" */ = {
+		C3B44C5027E89DEC00A0729D /* XCRemoteSwiftPackageReference "jedlix-sdk-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jedlix/jedlix-sdk-ios";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.0;
+				minimumVersion = 1.2.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
