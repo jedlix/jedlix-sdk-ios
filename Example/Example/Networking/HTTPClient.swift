@@ -17,7 +17,6 @@ class HTTPClient {
         static let chargingLocation = "/users/%@/charging-locations/%@"
         static let chargers = "/users/%@/chargers"
         static let charger = "/users/%@/charging-locations/%@/chargers/%@"
-        static let connectSessions = "/users/%@/connect-sessions"
     }
     
     private let userIdentifier: String
@@ -84,27 +83,6 @@ class HTTPClient {
         let urlResponse = response.1
         guard (urlResponse as? HTTPURLResponse)?.statusCode == 204 else {
             throw try HTTPError(with: data)
-        }
-    }
-    
-    func getConnectSessions<T: ConnectSession>() async throws -> [T] {
-        let type: String = {
-            switch T.self {
-            case is VehicleConnectSession.Type: return "vehicle"
-            case is ChargerConnectSession.Type: return "charger"
-            default: fatalError("Invalid ConnectSession type")
-            }
-        }()
-        let queryItems = [URLQueryItem(name: "type", value: type)]
-        var request = try await request(with: Path.connectSessions, queryItems: queryItems, parameters: userIdentifier)
-        request.httpMethod = "GET"
-        let response = try await URLSession.shared.response(for: request, delegate: nil)
-        let data = response.0
-        do {
-            return try JSONDecoder().decode([T].self, from: data)
-        } catch {
-            let errorResponse = try JSONDecoder().decode(HTTPErrorResponse.self, from: data)
-            throw HTTPError.errorResponse(detail: errorResponse.detail)
         }
     }
     

@@ -50,6 +50,15 @@ ConnectSessionView(
 )
 ```
 
+To start a connect session to a selected vehicle, you need to specify the vehicle id:
+
+```swift
+ConnectSessionView(
+    userIdentifier: "<USER ID>",
+    vehicleIdentifier: "<VEHICLE ID>"
+)
+```
+
 To start a charger connect session, you need to specify a charging location identifier:
 
 ```swift
