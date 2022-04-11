@@ -21,8 +21,11 @@ struct ConnectionsView: View {
     
     private let userIdentifier: String!
     private let httpClient: HTTPClient
-    
+
     init(userIdentifier: String) {
+        guard JedlixSDK.isConfigured else {
+            fatalError("Jedlix SDK not configured")
+        }
         self.userIdentifier = userIdentifier
         self.httpClient = HTTPClient(userIdentifier: userIdentifier)
     }
@@ -78,8 +81,8 @@ struct ConnectionsView: View {
             let vehicles = try await httpClient.getVehicles()
             let chargingLocations = try await httpClient.getChargingLocations()
             let chargers = try await httpClient.getChargers()
-            let vehicleSessions: [VehicleConnectSession] = try await httpClient.getConnectSessions()
-            let chargerSessions: [ChargerConnectSession] = try await httpClient.getConnectSessions()
+            let vehicleSessions: [VehicleConnectSession] = try await JedlixSDK.getVehicleConnectSessions(userId: userIdentifier)
+            let chargerSessions: [ChargerConnectSession] = try await JedlixSDK.getChargerConnectSessions(userId: userIdentifier)
             DispatchQueue.main.async {
                 self.vehicles = vehicles
                 self.chargingLocations = chargingLocations
