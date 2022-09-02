@@ -14,7 +14,7 @@ Use [Swift Package Manager](https://www.swift.org/package-manager/) to add Jedli
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/jedlix/jedlix-sdk-ios.git", .upToNextMajor(from: "1.2.1"))
+    .package(url: "https://github.com/jedlix/jedlix-sdk-ios.git", .upToNextMajor(from: "1.4.0"))
 ]
 ```
 
