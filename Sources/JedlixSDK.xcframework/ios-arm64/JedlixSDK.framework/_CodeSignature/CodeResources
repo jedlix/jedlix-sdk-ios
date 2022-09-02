@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/JedlixSDK-Swift.h</key>
 		<data>
-		ayKIP4odkofAAOsSnj20W3w2oXo=
+		wZPL6zHZFeKjsdUoN1RLg6+GkeQ=
 		</data>
 		<key>Headers/JedlixSDK.h</key>
 		<data>
@@ -14,31 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		K5E8oPRV6D161DHsfKv31KWYa6k=
+		hes/J4VvaEsaYhz7D1/B2E/maQQ=
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		rz4fQf9fLeD214PcVper7ZTMFwo=
+		Pi/pTBmgSnQqyKJ9M/1KxqnrzoM=
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		KAZUM1sZYepPFNXNBVZftdcpGUA=
+		xOzHyaz5xQRhhyCu9CLG855E2c8=
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ykTxwmf405d69cfXq/etPHcV2jI=
-		</data>
-		<key>Modules/JedlixSDK.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		rz4fQf9fLeD214PcVper7ZTMFwo=
-		</data>
-		<key>Modules/JedlixSDK.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		KAZUM1sZYepPFNXNBVZftdcpGUA=
-		</data>
-		<key>Modules/JedlixSDK.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		ykTxwmf405d69cfXq/etPHcV2jI=
+		G/63it+IS0RR6I/6xozNAqvqR1A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +39,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dzzrOdkfZJ2mlrGxP+AGXyUOWmAlozoP5jOvIftRh8E=
+			mBw3o05htcJAAYx+ifLMYfwhmQefAvZDxBxn9shx+X0=
 			</data>
 		</dict>
 		<key>Headers/JedlixSDK.h</key>
@@ -65,42 +53,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9UKPlZIcjGWDJy9m2iUy7hgtvg8PSu2qAZGOIBN3QBI=
+			7Wnr7e4BAh/qxaLJR0soQIk1qWgbSWSOINAsjKq8Zhk=
 			</data>
 		</dict>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AwBTdbQ9vBHCV7K1zYqqw9Ls1Qxc2zWrMD8EO9y8pBI=
+			wEBgYBtDXTbh5iYhDzzUbpP48vp5xeuxFWm2o0vIbPM=
 			</data>
 		</dict>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			afpGjOXirBArnRaCX9dlXMzeHcDH3b6GYNE4mcarWb4=
-			</data>
-		</dict>
-		<key>Modules/JedlixSDK.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9UKPlZIcjGWDJy9m2iUy7hgtvg8PSu2qAZGOIBN3QBI=
-			</data>
-		</dict>
-		<key>Modules/JedlixSDK.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AwBTdbQ9vBHCV7K1zYqqw9Ls1Qxc2zWrMD8EO9y8pBI=
-			</data>
-		</dict>
-		<key>Modules/JedlixSDK.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			afpGjOXirBArnRaCX9dlXMzeHcDH3b6GYNE4mcarWb4=
+			KzTbOztuoZ5vP7TLFp4qEJ+hSTepgH+pXoHqlxnM5Bg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

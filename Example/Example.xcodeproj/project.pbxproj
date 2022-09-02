@@ -19,6 +19,7 @@
 		C3873886278EC4AC0075E40A /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3873885278EC4AC0075E40A /* Authentication.swift */; };
 		C387388A278F44140075E40A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3873889278F44140075E40A /* AppDelegate.swift */; };
 		C389C75D2785B03F00BDF059 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = C389C75C2785B03F00BDF059 /* Auth0 */; };
+		C3B419192881D81B00A7FCFA /* JedlixSDK in Frameworks */ = {isa = PBXBuildFile; productRef = C3B419182881D81B00A7FCFA /* JedlixSDK */; };
 		C3D8395927858375002F7B50 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D8395827858374002F7B50 /* Styles.swift */; };
 		C3E6DC6227A175560058CC6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E6DC6127A175560058CC6F /* Assets.xcassets */; };
 		C3E6DC7627A1A1DC0058CC6F /* Auth0Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6DC7527A1A1DC0058CC6F /* Auth0Authentication.swift */; };
@@ -28,28 +29,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		205BF49927FB23420020C581 /* JedlixSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JedlixSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20C58BE227F48836007467B0 /* JedlixSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = JedlixSDK.xcframework; path = ../Sources/JedlixSDK.xcframework; sourceTree = "<group>"; };
-		20C58BE627F48886007467B0 /* JedlixSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JedlixSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3135AE727AAEC38007487EF /* JedlixSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JedlixSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3135AEB27AAEDBF007487EF /* ConnectSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectSession.swift; sourceTree = "<group>"; };
-		C315E28C27A2155200BF6ADE /* JedlixSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JedlixSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C315E29027A215E200BF6ADE /* Charger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charger.swift; sourceTree = "<group>"; };
 		C315E29227A2178400BF6ADE /* ChargingLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingLocation.swift; sourceTree = "<group>"; };
-		C31811C82791CB1D00625AE4 /* JedlixSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JedlixSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32379D927A3FB9D00B2626A /* SectionBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionBackground.swift; sourceTree = "<group>"; };
 		C32379DB27A419CA00B2626A /* VehiclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesView.swift; sourceTree = "<group>"; };
 		C32379DD27A419D500B2626A /* ChargersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargersView.swift; sourceTree = "<group>"; };
-		C327AC6B27A421420071AEFD /* JedlixSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JedlixSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32EC7A3278C3B32004518A1 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		C32EC7AB278C40E9004518A1 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		C33BD2392784BE9500D971C4 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33BD23C2784BE9500D971C4 /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
-		C34FC23127B19F2C005F0202 /* JedlixSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JedlixSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C360B37427874FE300DCAB7D /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		C3873885278EC4AC0075E40A /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 		C3873889278F44140075E40A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C398F36B27A8372500F2D9D1 /* JedlixSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JedlixSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D8395827858374002F7B50 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		C3E6DC6127A175560058CC6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3E6DC7527A1A1DC0058CC6F /* Auth0Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth0Authentication.swift; sourceTree = "<group>"; };
@@ -65,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C389C75D2785B03F00BDF059 /* Auth0 in Frameworks */,
+				C3B419192881D81B00A7FCFA /* JedlixSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,15 +134,6 @@
 		C33BD2572784C04200D971C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				205BF49927FB23420020C581 /* JedlixSDK.framework */,
-				20C58BE627F48886007467B0 /* JedlixSDK.framework */,
-				20C58BE227F48836007467B0 /* JedlixSDK.xcframework */,
-				C34FC23127B19F2C005F0202 /* JedlixSDK.framework */,
-				C3135AE727AAEC38007487EF /* JedlixSDK.framework */,
-				C398F36B27A8372500F2D9D1 /* JedlixSDK.framework */,
-				C327AC6B27A421420071AEFD /* JedlixSDK.framework */,
-				C315E28C27A2155200BF6ADE /* JedlixSDK.framework */,
-				C31811C82791CB1D00625AE4 /* JedlixSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,6 +156,7 @@
 			name = Example;
 			packageProductDependencies = (
 				C389C75C2785B03F00BDF059 /* Auth0 */,
+				C3B419182881D81B00A7FCFA /* JedlixSDK */,
 			);
 			productName = Example;
 			productReference = C33BD2392784BE9500D971C4 /* Example.app */;
@@ -204,7 +189,7 @@
 			mainGroup = C33BD2302784BE9500D971C4;
 			packageReferences = (
 				C389C75B2785B03F00BDF059 /* XCRemoteSwiftPackageReference "Auth0.swift" */,
-				205BF49E27FB23FA0020C581 /* XCRemoteSwiftPackageReference "jedlix-sdk-ios" */,
+				C3B419172881D81B00A7FCFA /* XCRemoteSwiftPackageReference "jedlix-sdk-ios" */,
 			);
 			productRefGroup = C33BD23A2784BE9500D971C4 /* Products */;
 			projectDirPath = "";
@@ -378,7 +363,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 79CVEE6FZS;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Example/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Jedlix SDK";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -411,7 +396,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 79CVEE6FZS;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Example/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Jedlix SDK";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -459,17 +444,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		205BF49E27FB23FA0020C581 /* XCRemoteSwiftPackageReference "jedlix-sdk-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/jedlix/jedlix-sdk-ios";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.3.0;
-			};
-		};
 		C389C75B2785B03F00BDF059 /* XCRemoteSwiftPackageReference "Auth0.swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/auth0/Auth0.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		C3B419172881D81B00A7FCFA /* XCRemoteSwiftPackageReference "jedlix-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jedlix/jedlix-sdk-ios";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
@@ -482,6 +467,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C389C75B2785B03F00BDF059 /* XCRemoteSwiftPackageReference "Auth0.swift" */;
 			productName = Auth0;
+		};
+		C3B419182881D81B00A7FCFA /* JedlixSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3B419172881D81B00A7FCFA /* XCRemoteSwiftPackageReference "jedlix-sdk-ios" */;
+			productName = JedlixSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

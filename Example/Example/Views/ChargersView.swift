@@ -51,17 +51,18 @@ struct ChargersView: View {
         HStack {
             Text(charger.detail.description)
             Spacer()
-            if let connectSession = connectSessions.first(where: {
-                $0.chargingLocationId == chargingLocation.id &&
-                $0.chargerId == charger.id
-            }) {
-                NavigationLink("Resume", isActive: $isConnectViewPresented) {
-                    ConnectSessionView(
-                        userIdentifier: userIdentifier,
-                        sessionIdentifier: connectSession.id
-                    )
+            VStack {
+                if let connectSession = connectSessions.first(where: {
+                    $0.chargingLocationId == chargingLocation.id &&
+                    $0.chargerId == charger.id
+                }) {
+                    NavigationLink("Resume", isActive: $isConnectViewPresented) {
+                        ConnectSessionView(
+                            userIdentifier: userIdentifier,
+                            sessionIdentifier: connectSession.id
+                        )
+                    }
                 }
-            } else {
                 Button("Remove") { onRemoveCharger(charger) }
                     .foregroundColor(.red)
             }

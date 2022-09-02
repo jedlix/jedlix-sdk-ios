@@ -25,14 +25,15 @@ struct VehiclesView: View {
                     HStack {
                         Text(vehicle.details.description)
                         Spacer()
-                        if let connectSession = connectSessions.first { $0.vehicleId == vehicle.id } {
-                            NavigationLink("Resume", isActive: $isConnectViewPresented) {
-                                ConnectSessionView(
-                                    userIdentifier: userIdentifier,
-                                    sessionIdentifier: connectSession.id
-                                )
+                        VStack {
+                            if let connectSession = connectSessions.first { $0.vehicleId == vehicle.id } {
+                                NavigationLink("Resume", isActive: $isConnectViewPresented) {
+                                    ConnectSessionView(
+                                        userIdentifier: userIdentifier,
+                                        sessionIdentifier: connectSession.id
+                                    )
+                                }
                             }
-                        } else {
                             Button("Remove") { onRemoveVehicle(vehicle) }
                                 .foregroundColor(.red)
                         }
