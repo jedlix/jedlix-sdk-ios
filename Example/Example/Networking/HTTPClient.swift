@@ -100,7 +100,12 @@ class HTTPClient {
         let pathWithParameters = String(format: path, arguments: parameters)
         let url = url(with: Path.base + pathWithParameters, queryItems: queryItems)
         var request = URLRequest(url: url)
+        if let apiKey = apiKey {
+            request.addValue(apiKey, forHTTPHeaderField: "ApiKey")
+        }
         request.addValue("Bearer \(accessToken)", forHTTPHeaderField: "Authorization")
+        request.addValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
+        request.addValue("1.5.0", forHTTPHeaderField: "Jedlix-ClientVersion")
         return request
     }
 }

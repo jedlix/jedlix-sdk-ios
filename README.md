@@ -14,21 +14,20 @@ Use [Swift Package Manager](https://www.swift.org/package-manager/) to add Jedli
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/jedlix/jedlix-sdk-ios.git", .upToNextMajor(from: "1.4.0"))
+    .package(url: "https://github.com/jedlix/jedlix-sdk-ios.git", .upToNextMajor(from: "1.5.0"))
 ]
 ```
 
 ## Usage
 
-When you sign up for a [Smart Charging API](https://api.jedlix.com/) account, you get a custom `baseURL`. You need to provide it to the SDK, as well as an `Authentication` implementation.
-
-Configure the SDK:
+When you sign up for a [Smart Charging API](https://api.jedlix.com/) account, you get a custom `baseURL` and `apiKey`. Configure the SDK with these values and an `Authentication` implementation. API key is not required if you use your own base URL.
 
 ```swift
 import JedlixSDK
 
 JedlixSDK.configure(
     baseURL: /* Base URL */,
+    apiKey: /* API key */,
     authentication: /* Authentication implementation */
 )
 ```
@@ -81,10 +80,11 @@ ConnectSessionView(
 
 See the included example to learn how to use the SDK.
 
-Open `AppDelegate.swift` and specify your `baseURL`:
+Open `AppDelegate.swift` and specify your `baseURL` and `apiKey`:
 
 ```swift
 baseURL = URL(string: "<YOUR BASE URL>")!
+apiKey = "<YOUR API KEY>"
 ```
 
 (Optional) If you use [Auth0](https://auth0.com/), you can uncomment the following code to authenticate with an Auth0 account directly, assuming the user identifier is stored in JWT body under `userIdentifierKey`.

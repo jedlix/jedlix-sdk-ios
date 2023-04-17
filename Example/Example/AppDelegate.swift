@@ -8,6 +8,7 @@
 import UIKit
 import JedlixSDK
 
+var apiKey: String?
 var baseURL: URL!
 var authentication: Authentication!
 
@@ -15,6 +16,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         
         baseURL = URL(string: "<YOUR BASE URL>")!
+        apiKey = "<YOUR API KEY>"
         authentication = DefaultAuthentication()
 //        authentication = Auth0Authentication(
 //            clientId: "<AUTH0 CLIENT ID>",
@@ -24,6 +26,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 //        )
         JedlixSDK.configure(
             baseURL: baseURL,
+            apiKey: apiKey,
             authentication: authentication
         )
         return true
