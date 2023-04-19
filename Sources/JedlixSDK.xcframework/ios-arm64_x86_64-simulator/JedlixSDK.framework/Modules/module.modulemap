@@ -6,6 +6,6 @@ framework module JedlixSDK {
 }
 
 module JedlixSDK.Swift {
-    header "JedlixSDK-Swift.h"
-    requires objc
+  header "JedlixSDK-Swift.h"
+  requires objc
 }

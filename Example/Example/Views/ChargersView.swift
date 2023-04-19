@@ -25,7 +25,8 @@ struct ChargersView: View {
                 ForEach(chargingLocations) { chargingLocation in
                     VStack(alignment: .leading, spacing: 12) {
                         Text(chargingLocation.address.description).bold()
-                        if let chargers = chargers(at: chargingLocation), chargers.count > 0 {
+                        let chargers = chargers(at: chargingLocation)
+                        if chargers.count > 0 {
                             ForEach(chargers) { charger in
                                 chargerView(chargingLocation: chargingLocation, charger: charger)
                             }

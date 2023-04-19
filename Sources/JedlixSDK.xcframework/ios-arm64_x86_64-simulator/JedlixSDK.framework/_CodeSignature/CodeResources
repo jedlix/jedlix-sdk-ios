@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/JedlixSDK-Swift.h</key>
 		<data>
-		XjWvZV4G0QWSkRebQkkM5WFrfjw=
+		pa30l6UVp/QqwWA42x72WswuGTU=
 		</data>
 		<key>Headers/JedlixSDK.h</key>
 		<data>
@@ -14,35 +14,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FmJV2GrTg3Cccs4bBXNe/m3OySc=
+		/cj4Uwm3PY8xHobSANdmAAp5Oyw=
+		</data>
+		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		Sv2JeTZHM4Y1K6sR5eDTXcOKGaQ=
+		</data>
+		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		pvgRp3wxtHCZMEOdR9a90zTYhK8=
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		MVqAZLYadWZ3ACKpavsUrOv93f0=
+		yAJqGrGmNE/EO1ZCMQcP0Bw6/FE=
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		azqyh/U/aXwlFTBjMfAfQfyifLY=
+		pvgRp3wxtHCZMEOdR9a90zTYhK8=
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		A04tzvSai/Nxn+ek/9QsgXXCM7M=
+		NCE9xsBDQaRYfceVxBxuHWIed6o=
+		</data>
+		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		Sv2JeTZHM4Y1K6sR5eDTXcOKGaQ=
+		</data>
+		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		bAetK2U16fUpceL4UsciqXtPg+8=
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		7UkwK51gwq4CV4LfJ7Mg1v3R2XU=
+		tQG3A7uv0yOXFKqQkmdtYFta900=
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ylIhuioJED70bnLAjVM+J7dnkc8=
+		bAetK2U16fUpceL4UsciqXtPg+8=
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oTBPKLExf1CxQ5miMwXVXDzI7CE=
+		LW71+3kSwK2+oX4VvmAGpXD7lDo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		VU7FDRKiUO6rNQmC9e5M7xCDIhw=
+		lWx/cdJYGx5fkffp4FGza3ekXxk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d+EFsYGjexbGMcEOAWuFK/pCfEJLRDfLMQuItcsKXaE=
+			3cewEFeezZAnGWYVQlKiwIEiwTwRobh83xSkXm92ibA=
 			</data>
 		</dict>
 		<key>Headers/JedlixSDK.h</key>
@@ -61,53 +77,81 @@
 			Hp3OYZxLlj4961sse7nBy+uXKcD+vANTeskIV1+PL5g=
 			</data>
 		</dict>
+		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ba7tsq8gi1+6abyFcC6qseV31XJ38oSYrul2VG5VgdQ=
+			</data>
+		</dict>
+		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			poGpe69itip9AJS3orPHv408XdavxyV37t8kFvv64W0=
+			</data>
+		</dict>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q7nAHaZFEadrEULA+X+LJ58bKTvxhKtf4+l5QAtQPiU=
+			jhnw0YTDWb7265pUQ3tiz2VdT0i3Dm1ynW2lhXmL03I=
 			</data>
 		</dict>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m6SJoMYdEQ72MHBGTAUZLC+/5UwyNruoZJH3sMhGdow=
+			poGpe69itip9AJS3orPHv408XdavxyV37t8kFvv64W0=
 			</data>
 		</dict>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ci5jRsDwsG+9O6feKecP1NR8Lnbs6rkI+xK4kfqg5mI=
+			kXMwfhDMY2wtS+LQZuM64K/yhjQysLyVmPhStynI4VY=
+			</data>
+		</dict>
+		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ba7tsq8gi1+6abyFcC6qseV31XJ38oSYrul2VG5VgdQ=
+			</data>
+		</dict>
+		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3aF+YOd20dYRutzA4kGI1/gJ3Is96ihoH+QxQxxJKRY=
 			</data>
 		</dict>
 		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S61yTt6XDdLiuBXHgj5UUCM0x/KvqU42OKpuEyWxV/E=
+			qEd1vDUslSSA7RomRCfjrjPBk06d1VRf1FkO3X1MDbs=
 			</data>
 		</dict>
 		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1N9ldkCw5GYEPch0d0/3dcPuYFjva5SGocU1SgREKHo=
+			3aF+YOd20dYRutzA4kGI1/gJ3Is96ihoH+QxQxxJKRY=
 			</data>
 		</dict>
 		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EScwcCFXXadxEvT9IWjrzGBzFchQSor+k5qra33fmYE=
+			LLFKxlFVDLwHnPIHk9oYiG+0W4poB5O2MXmLupvlAy4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qmVZJUg6sE+O2+n8nBNUtLRBa4FfWXsQJhsmU6QKQkU=
+			ucVOMSCF5eCZMb1rPcBCzPU5etubQmacdFVyoKMdWFc=
 			</data>
 		</dict>
 	</dict>

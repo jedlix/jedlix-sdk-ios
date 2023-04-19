@@ -26,7 +26,7 @@ struct VehiclesView: View {
                         Text(vehicle.details.description)
                         Spacer()
                         VStack {
-                            if let connectSession = connectSessions.first { $0.vehicleId == vehicle.id } {
+                            if let connectSession = connectSessions.first(where: { $0.vehicleId == vehicle.id }) {
                                 NavigationLink("Resume", isActive: $isConnectViewPresented) {
                                     ConnectSessionView(
                                         userIdentifier: userIdentifier,
@@ -41,7 +41,7 @@ struct VehiclesView: View {
                 }
             } else {
                 HStack {
-                    if let connectSession = connectSessions.first { $0.vehicleId == nil } {
+                    if let connectSession = connectSessions.first(where: { $0.vehicleId == nil }) {
                         Text("Unfinished connect session")
                         Spacer()
                         NavigationLink("Resume", isActive: $isConnectViewPresented) {

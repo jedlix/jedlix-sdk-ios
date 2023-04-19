@@ -1,0 +1,4553 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DismissButtonStyle",
+        "printedName": "DismissButtonStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "back",
+            "printedName": "back",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JedlixSDK.DismissButtonStyle.Type) -> JedlixSDK.DismissButtonStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DismissButtonStyle",
+                    "printedName": "JedlixSDK.DismissButtonStyle",
+                    "usr": "s:9JedlixSDK18DismissButtonStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JedlixSDK.DismissButtonStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DismissButtonStyle",
+                        "printedName": "JedlixSDK.DismissButtonStyle",
+                        "usr": "s:9JedlixSDK18DismissButtonStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JedlixSDK18DismissButtonStyleO4backyA2CmF",
+            "mangledName": "$s9JedlixSDK18DismissButtonStyleO4backyA2CmF",
+            "moduleName": "JedlixSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "close",
+            "printedName": "close",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JedlixSDK.DismissButtonStyle.Type) -> JedlixSDK.DismissButtonStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DismissButtonStyle",
+                    "printedName": "JedlixSDK.DismissButtonStyle",
+                    "usr": "s:9JedlixSDK18DismissButtonStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JedlixSDK.DismissButtonStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DismissButtonStyle",
+                        "printedName": "JedlixSDK.DismissButtonStyle",
+                        "usr": "s:9JedlixSDK18DismissButtonStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JedlixSDK18DismissButtonStyleO5closeyA2CmF",
+            "mangledName": "$s9JedlixSDK18DismissButtonStyleO5closeyA2CmF",
+            "moduleName": "JedlixSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "JedlixSDK.DismissButtonStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DismissButtonStyle",
+                    "printedName": "JedlixSDK.DismissButtonStyle",
+                    "usr": "s:9JedlixSDK18DismissButtonStyleO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JedlixSDK18DismissButtonStyleO8rawValueACSgSS_tcfc",
+            "mangledName": "$s9JedlixSDK18DismissButtonStyleO8rawValueACSgSS_tcfc",
+            "moduleName": "JedlixSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK18DismissButtonStyleO8rawValueSSvp",
+            "mangledName": "$s9JedlixSDK18DismissButtonStyleO8rawValueSSvp",
+            "moduleName": "JedlixSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK18DismissButtonStyleO8rawValueSSvg",
+                "mangledName": "$s9JedlixSDK18DismissButtonStyleO8rawValueSSvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9JedlixSDK18DismissButtonStyleO",
+        "mangledName": "$s9JedlixSDK18DismissButtonStyleO",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectSessionView",
+        "printedName": "ConnectSessionView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userIdentifier:sessionType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectSessionView",
+                "printedName": "JedlixSDK.ConnectSessionView",
+                "usr": "s:9JedlixSDK18ConnectSessionViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectSessionType",
+                "printedName": "JedlixSDK.ConnectSessionType",
+                "usr": "s:9JedlixSDK18ConnectSessionTypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JedlixSDK18ConnectSessionViewV14userIdentifier11sessionTypeACSS_AA0cdI0Otcfc",
+            "mangledName": "$s9JedlixSDK18ConnectSessionViewV14userIdentifier11sessionTypeACSS_AA0cdI0Otcfc",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userIdentifier:vehicleIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectSessionView",
+                "printedName": "JedlixSDK.ConnectSessionView",
+                "usr": "s:9JedlixSDK18ConnectSessionViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JedlixSDK18ConnectSessionViewV14userIdentifier07vehicleG0ACSS_SStcfc",
+            "mangledName": "$s9JedlixSDK18ConnectSessionViewV14userIdentifier07vehicleG0ACSS_SStcfc",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userIdentifier:sessionIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectSessionView",
+                "printedName": "JedlixSDK.ConnectSessionView",
+                "usr": "s:9JedlixSDK18ConnectSessionViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JedlixSDK18ConnectSessionViewV14userIdentifier07sessionG0ACSS_SStcfc",
+            "mangledName": "$s9JedlixSDK18ConnectSessionViewV14userIdentifier07sessionG0ACSS_SStcfc",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_AppearanceActionModifier",
+                    "printedName": "SwiftUI._AppearanceActionModifier",
+                    "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK18ConnectSessionViewV4bodyQrvp",
+            "mangledName": "$s9JedlixSDK18ConnectSessionViewV4bodyQrvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpaqueTypeArchetype",
+                        "printedName": "some SwiftUI.View",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "View",
+                            "printedName": "SwiftUI.View",
+                            "usr": "s:7SwiftUI4ViewP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_AppearanceActionModifier",
+                        "printedName": "SwiftUI._AppearanceActionModifier",
+                        "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK18ConnectSessionViewV4bodyQrvg",
+                "mangledName": "$s9JedlixSDK18ConnectSessionViewV4bodyQrvg",
+                "moduleName": "JedlixSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9JedlixSDK18ConnectSessionViewV",
+        "mangledName": "$s9JedlixSDK18ConnectSessionViewV",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpaqueTypeArchetype",
+                        "printedName": "some SwiftUI.View",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "View",
+                            "printedName": "SwiftUI.View",
+                            "usr": "s:7SwiftUI4ViewP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_AppearanceActionModifier",
+                        "printedName": "SwiftUI._AppearanceActionModifier",
+                        "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RedirectInfo",
+        "printedName": "RedirectInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "includeBody",
+            "printedName": "includeBody",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK12RedirectInfoV11includeBodySbvp",
+            "mangledName": "$s9JedlixSDK12RedirectInfoV11includeBodySbvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK12RedirectInfoV11includeBodySbvg",
+                "mangledName": "$s9JedlixSDK12RedirectInfoV11includeBodySbvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "includeCookies",
+            "printedName": "includeCookies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK12RedirectInfoV14includeCookiesSaySSGvp",
+            "mangledName": "$s9JedlixSDK12RedirectInfoV14includeCookiesSaySSGvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK12RedirectInfoV14includeCookiesSaySSGvg",
+                "mangledName": "$s9JedlixSDK12RedirectInfoV14includeCookiesSaySSGvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "includeRedirectUrl",
+            "printedName": "includeRedirectUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK12RedirectInfoV07includeC3UrlSbvp",
+            "mangledName": "$s9JedlixSDK12RedirectInfoV07includeC3UrlSbvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK12RedirectInfoV07includeC3UrlSbvg",
+                "mangledName": "$s9JedlixSDK12RedirectInfoV07includeC3UrlSbvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(includeBody:includeCookies:includeRedirectUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RedirectInfo",
+                "printedName": "JedlixSDK.RedirectInfo",
+                "usr": "s:9JedlixSDK12RedirectInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JedlixSDK12RedirectInfoV11includeBody0E7Cookies0eC3UrlACSb_SaySSGSbtcfc",
+            "mangledName": "$s9JedlixSDK12RedirectInfoV11includeBody0E7Cookies0eC3UrlACSb_SaySSGSbtcfc",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RedirectInfo",
+                "printedName": "JedlixSDK.RedirectInfo",
+                "usr": "s:9JedlixSDK12RedirectInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JedlixSDK12RedirectInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9JedlixSDK12RedirectInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "JedlixSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JedlixSDK12RedirectInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9JedlixSDK12RedirectInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "JedlixSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9JedlixSDK12RedirectInfoV",
+        "mangledName": "$s9JedlixSDK12RedirectInfoV",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Info",
+        "printedName": "Info",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK4InfoV4bodySSSgvp",
+            "mangledName": "$s9JedlixSDK4InfoV4bodySSSgvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK4InfoV4bodySSSgvg",
+                "mangledName": "$s9JedlixSDK4InfoV4bodySSSgvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bodyError",
+            "printedName": "bodyError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK4InfoV9bodyErrorSSSgvp",
+            "mangledName": "$s9JedlixSDK4InfoV9bodyErrorSSSgvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK4InfoV9bodyErrorSSSgvg",
+                "mangledName": "$s9JedlixSDK4InfoV9bodyErrorSSSgvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cookies",
+            "printedName": "cookies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK4InfoV7cookiesSDyS2SGvp",
+            "mangledName": "$s9JedlixSDK4InfoV7cookiesSDyS2SGvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK4InfoV7cookiesSDyS2SGvg",
+                "mangledName": "$s9JedlixSDK4InfoV7cookiesSDyS2SGvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectUrl",
+            "printedName": "redirectUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK4InfoV11redirectUrlSSSgvp",
+            "mangledName": "$s9JedlixSDK4InfoV11redirectUrlSSSgvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK4InfoV11redirectUrlSSSgvg",
+                "mangledName": "$s9JedlixSDK4InfoV11redirectUrlSSSgvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Info",
+                "printedName": "JedlixSDK.Info",
+                "usr": "s:9JedlixSDK4InfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JedlixSDK4InfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9JedlixSDK4InfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "JedlixSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JedlixSDK4InfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9JedlixSDK4InfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "JedlixSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9JedlixSDK4InfoV",
+        "mangledName": "$s9JedlixSDK4InfoV",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectSessionDescriptor",
+        "printedName": "ConnectSessionDescriptor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK24ConnectSessionDescriptorP2idSSvp",
+            "mangledName": "$s9JedlixSDK24ConnectSessionDescriptorP2idSSvp",
+            "moduleName": "JedlixSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK24ConnectSessionDescriptorP2idSSvg",
+                "mangledName": "$s9JedlixSDK24ConnectSessionDescriptorP2idSSvg",
+                "moduleName": "JedlixSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : JedlixSDK.ConnectSessionDescriptor>",
+                "sugared_genericSig": "<Self where Self : JedlixSDK.ConnectSessionDescriptor>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFinished",
+            "printedName": "isFinished",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK24ConnectSessionDescriptorP10isFinishedSbvp",
+            "mangledName": "$s9JedlixSDK24ConnectSessionDescriptorP10isFinishedSbvp",
+            "moduleName": "JedlixSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK24ConnectSessionDescriptorP10isFinishedSbvg",
+                "mangledName": "$s9JedlixSDK24ConnectSessionDescriptorP10isFinishedSbvg",
+                "moduleName": "JedlixSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : JedlixSDK.ConnectSessionDescriptor>",
+                "sugared_genericSig": "<Self where Self : JedlixSDK.ConnectSessionDescriptor>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "startUrl",
+            "printedName": "startUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK24ConnectSessionDescriptorP8startUrlSSSgvp",
+            "mangledName": "$s9JedlixSDK24ConnectSessionDescriptorP8startUrlSSSgvp",
+            "moduleName": "JedlixSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK24ConnectSessionDescriptorP8startUrlSSSgvg",
+                "mangledName": "$s9JedlixSDK24ConnectSessionDescriptorP8startUrlSSSgvg",
+                "moduleName": "JedlixSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : JedlixSDK.ConnectSessionDescriptor>",
+                "sugared_genericSig": "<Self where Self : JedlixSDK.ConnectSessionDescriptor>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectUrl",
+            "printedName": "redirectUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK24ConnectSessionDescriptorP11redirectUrlSSSgvp",
+            "mangledName": "$s9JedlixSDK24ConnectSessionDescriptorP11redirectUrlSSSgvp",
+            "moduleName": "JedlixSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK24ConnectSessionDescriptorP11redirectUrlSSSgvg",
+                "mangledName": "$s9JedlixSDK24ConnectSessionDescriptorP11redirectUrlSSSgvg",
+                "moduleName": "JedlixSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : JedlixSDK.ConnectSessionDescriptor>",
+                "sugared_genericSig": "<Self where Self : JedlixSDK.ConnectSessionDescriptor>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectInfo",
+            "printedName": "redirectInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "JedlixSDK.RedirectInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RedirectInfo",
+                    "printedName": "JedlixSDK.RedirectInfo",
+                    "usr": "s:9JedlixSDK12RedirectInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK24ConnectSessionDescriptorP12redirectInfoAA08RedirectG0VSgvp",
+            "mangledName": "$s9JedlixSDK24ConnectSessionDescriptorP12redirectInfoAA08RedirectG0VSgvp",
+            "moduleName": "JedlixSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "JedlixSDK.RedirectInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RedirectInfo",
+                        "printedName": "JedlixSDK.RedirectInfo",
+                        "usr": "s:9JedlixSDK12RedirectInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK24ConnectSessionDescriptorP12redirectInfoAA08RedirectG0VSgvg",
+                "mangledName": "$s9JedlixSDK24ConnectSessionDescriptorP12redirectInfoAA08RedirectG0VSgvg",
+                "moduleName": "JedlixSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : JedlixSDK.ConnectSessionDescriptor>",
+                "sugared_genericSig": "<Self where Self : JedlixSDK.ConnectSessionDescriptor>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9JedlixSDK24ConnectSessionDescriptorP",
+        "mangledName": "$s9JedlixSDK24ConnectSessionDescriptorP",
+        "moduleName": "JedlixSDK",
+        "genericSig": "<τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<Self : Swift.Decodable, Self : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectSession",
+        "printedName": "ConnectSession",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK14ConnectSessionV2idSSvp",
+            "mangledName": "$s9JedlixSDK14ConnectSessionV2idSSvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK14ConnectSessionV2idSSvg",
+                "mangledName": "$s9JedlixSDK14ConnectSessionV2idSSvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFinished",
+            "printedName": "isFinished",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK14ConnectSessionV10isFinishedSbvp",
+            "mangledName": "$s9JedlixSDK14ConnectSessionV10isFinishedSbvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK14ConnectSessionV10isFinishedSbvg",
+                "mangledName": "$s9JedlixSDK14ConnectSessionV10isFinishedSbvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "startUrl",
+            "printedName": "startUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK14ConnectSessionV8startUrlSSSgvp",
+            "mangledName": "$s9JedlixSDK14ConnectSessionV8startUrlSSSgvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK14ConnectSessionV8startUrlSSSgvg",
+                "mangledName": "$s9JedlixSDK14ConnectSessionV8startUrlSSSgvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectUrl",
+            "printedName": "redirectUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK14ConnectSessionV11redirectUrlSSSgvp",
+            "mangledName": "$s9JedlixSDK14ConnectSessionV11redirectUrlSSSgvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK14ConnectSessionV11redirectUrlSSSgvg",
+                "mangledName": "$s9JedlixSDK14ConnectSessionV11redirectUrlSSSgvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectInfo",
+            "printedName": "redirectInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "JedlixSDK.RedirectInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RedirectInfo",
+                    "printedName": "JedlixSDK.RedirectInfo",
+                    "usr": "s:9JedlixSDK12RedirectInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK14ConnectSessionV12redirectInfoAA08RedirectF0VSgvp",
+            "mangledName": "$s9JedlixSDK14ConnectSessionV12redirectInfoAA08RedirectF0VSgvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "JedlixSDK.RedirectInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RedirectInfo",
+                        "printedName": "JedlixSDK.RedirectInfo",
+                        "usr": "s:9JedlixSDK12RedirectInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK14ConnectSessionV12redirectInfoAA08RedirectF0VSgvg",
+                "mangledName": "$s9JedlixSDK14ConnectSessionV12redirectInfoAA08RedirectF0VSgvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:isFinished:startUrl:redirectUrl:redirectInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectSession",
+                "printedName": "JedlixSDK.ConnectSession",
+                "usr": "s:9JedlixSDK14ConnectSessionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "JedlixSDK.RedirectInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RedirectInfo",
+                    "printedName": "JedlixSDK.RedirectInfo",
+                    "usr": "s:9JedlixSDK12RedirectInfoV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JedlixSDK14ConnectSessionV2id10isFinished8startUrl08redirectI00J4InfoACSS_SbSSSgAiA08RedirectK0VSgtcfc",
+            "mangledName": "$s9JedlixSDK14ConnectSessionV2id10isFinished8startUrl08redirectI00J4InfoACSS_SbSSSgAiA08RedirectK0VSgtcfc",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectSession",
+                "printedName": "JedlixSDK.ConnectSession",
+                "usr": "s:9JedlixSDK14ConnectSessionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JedlixSDK14ConnectSessionV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9JedlixSDK14ConnectSessionV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "JedlixSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JedlixSDK14ConnectSessionV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9JedlixSDK14ConnectSessionV6encode2toys7Encoder_p_tKF",
+            "moduleName": "JedlixSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9JedlixSDK14ConnectSessionV",
+        "mangledName": "$s9JedlixSDK14ConnectSessionV",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ConnectSessionDescriptor",
+            "printedName": "ConnectSessionDescriptor",
+            "usr": "s:9JedlixSDK24ConnectSessionDescriptorP",
+            "mangledName": "$s9JedlixSDK24ConnectSessionDescriptorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VehicleConnectSession",
+        "printedName": "VehicleConnectSession",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK21VehicleConnectSessionV2idSSvp",
+            "mangledName": "$s9JedlixSDK21VehicleConnectSessionV2idSSvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK21VehicleConnectSessionV2idSSvg",
+                "mangledName": "$s9JedlixSDK21VehicleConnectSessionV2idSSvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vehicleId",
+            "printedName": "vehicleId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK21VehicleConnectSessionV9vehicleIdSSSgvp",
+            "mangledName": "$s9JedlixSDK21VehicleConnectSessionV9vehicleIdSSSgvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK21VehicleConnectSessionV9vehicleIdSSSgvg",
+                "mangledName": "$s9JedlixSDK21VehicleConnectSessionV9vehicleIdSSSgvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFinished",
+            "printedName": "isFinished",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK21VehicleConnectSessionV10isFinishedSbvp",
+            "mangledName": "$s9JedlixSDK21VehicleConnectSessionV10isFinishedSbvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK21VehicleConnectSessionV10isFinishedSbvg",
+                "mangledName": "$s9JedlixSDK21VehicleConnectSessionV10isFinishedSbvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "startUrl",
+            "printedName": "startUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK21VehicleConnectSessionV8startUrlSSSgvp",
+            "mangledName": "$s9JedlixSDK21VehicleConnectSessionV8startUrlSSSgvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK21VehicleConnectSessionV8startUrlSSSgvg",
+                "mangledName": "$s9JedlixSDK21VehicleConnectSessionV8startUrlSSSgvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectUrl",
+            "printedName": "redirectUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK21VehicleConnectSessionV11redirectUrlSSSgvp",
+            "mangledName": "$s9JedlixSDK21VehicleConnectSessionV11redirectUrlSSSgvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK21VehicleConnectSessionV11redirectUrlSSSgvg",
+                "mangledName": "$s9JedlixSDK21VehicleConnectSessionV11redirectUrlSSSgvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectInfo",
+            "printedName": "redirectInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "JedlixSDK.RedirectInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RedirectInfo",
+                    "printedName": "JedlixSDK.RedirectInfo",
+                    "usr": "s:9JedlixSDK12RedirectInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK21VehicleConnectSessionV12redirectInfoAA08RedirectG0VSgvp",
+            "mangledName": "$s9JedlixSDK21VehicleConnectSessionV12redirectInfoAA08RedirectG0VSgvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "JedlixSDK.RedirectInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RedirectInfo",
+                        "printedName": "JedlixSDK.RedirectInfo",
+                        "usr": "s:9JedlixSDK12RedirectInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK21VehicleConnectSessionV12redirectInfoAA08RedirectG0VSgvg",
+                "mangledName": "$s9JedlixSDK21VehicleConnectSessionV12redirectInfoAA08RedirectG0VSgvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:vehicleId:isFinished:startUrl:redirectUrl:redirectInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VehicleConnectSession",
+                "printedName": "JedlixSDK.VehicleConnectSession",
+                "usr": "s:9JedlixSDK21VehicleConnectSessionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "JedlixSDK.RedirectInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RedirectInfo",
+                    "printedName": "JedlixSDK.RedirectInfo",
+                    "usr": "s:9JedlixSDK12RedirectInfoV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JedlixSDK21VehicleConnectSessionV2id9vehicleId10isFinished8startUrl08redirectL00M4InfoACSS_SSSgSbA2jA08RedirectN0VSgtcfc",
+            "mangledName": "$s9JedlixSDK21VehicleConnectSessionV2id9vehicleId10isFinished8startUrl08redirectL00M4InfoACSS_SSSgSbA2jA08RedirectN0VSgtcfc",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VehicleConnectSession",
+                "printedName": "JedlixSDK.VehicleConnectSession",
+                "usr": "s:9JedlixSDK21VehicleConnectSessionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JedlixSDK21VehicleConnectSessionV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9JedlixSDK21VehicleConnectSessionV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "JedlixSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JedlixSDK21VehicleConnectSessionV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9JedlixSDK21VehicleConnectSessionV6encode2toys7Encoder_p_tKF",
+            "moduleName": "JedlixSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9JedlixSDK21VehicleConnectSessionV",
+        "mangledName": "$s9JedlixSDK21VehicleConnectSessionV",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ConnectSessionDescriptor",
+            "printedName": "ConnectSessionDescriptor",
+            "usr": "s:9JedlixSDK24ConnectSessionDescriptorP",
+            "mangledName": "$s9JedlixSDK24ConnectSessionDescriptorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChargerConnectSession",
+        "printedName": "ChargerConnectSession",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK21ChargerConnectSessionV2idSSvp",
+            "mangledName": "$s9JedlixSDK21ChargerConnectSessionV2idSSvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK21ChargerConnectSessionV2idSSvg",
+                "mangledName": "$s9JedlixSDK21ChargerConnectSessionV2idSSvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chargerId",
+            "printedName": "chargerId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK21ChargerConnectSessionV9chargerIdSSSgvp",
+            "mangledName": "$s9JedlixSDK21ChargerConnectSessionV9chargerIdSSSgvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK21ChargerConnectSessionV9chargerIdSSSgvg",
+                "mangledName": "$s9JedlixSDK21ChargerConnectSessionV9chargerIdSSSgvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chargingLocationId",
+            "printedName": "chargingLocationId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK21ChargerConnectSessionV18chargingLocationIdSSvp",
+            "mangledName": "$s9JedlixSDK21ChargerConnectSessionV18chargingLocationIdSSvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK21ChargerConnectSessionV18chargingLocationIdSSvg",
+                "mangledName": "$s9JedlixSDK21ChargerConnectSessionV18chargingLocationIdSSvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFinished",
+            "printedName": "isFinished",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK21ChargerConnectSessionV10isFinishedSbvp",
+            "mangledName": "$s9JedlixSDK21ChargerConnectSessionV10isFinishedSbvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK21ChargerConnectSessionV10isFinishedSbvg",
+                "mangledName": "$s9JedlixSDK21ChargerConnectSessionV10isFinishedSbvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "startUrl",
+            "printedName": "startUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK21ChargerConnectSessionV8startUrlSSSgvp",
+            "mangledName": "$s9JedlixSDK21ChargerConnectSessionV8startUrlSSSgvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK21ChargerConnectSessionV8startUrlSSSgvg",
+                "mangledName": "$s9JedlixSDK21ChargerConnectSessionV8startUrlSSSgvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectUrl",
+            "printedName": "redirectUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK21ChargerConnectSessionV11redirectUrlSSSgvp",
+            "mangledName": "$s9JedlixSDK21ChargerConnectSessionV11redirectUrlSSSgvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK21ChargerConnectSessionV11redirectUrlSSSgvg",
+                "mangledName": "$s9JedlixSDK21ChargerConnectSessionV11redirectUrlSSSgvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectInfo",
+            "printedName": "redirectInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "JedlixSDK.RedirectInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RedirectInfo",
+                    "printedName": "JedlixSDK.RedirectInfo",
+                    "usr": "s:9JedlixSDK12RedirectInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK21ChargerConnectSessionV12redirectInfoAA08RedirectG0VSgvp",
+            "mangledName": "$s9JedlixSDK21ChargerConnectSessionV12redirectInfoAA08RedirectG0VSgvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "JedlixSDK.RedirectInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RedirectInfo",
+                        "printedName": "JedlixSDK.RedirectInfo",
+                        "usr": "s:9JedlixSDK12RedirectInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK21ChargerConnectSessionV12redirectInfoAA08RedirectG0VSgvg",
+                "mangledName": "$s9JedlixSDK21ChargerConnectSessionV12redirectInfoAA08RedirectG0VSgvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:chargerId:chargingLocationId:isFinished:startUrl:redirectUrl:redirectInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChargerConnectSession",
+                "printedName": "JedlixSDK.ChargerConnectSession",
+                "usr": "s:9JedlixSDK21ChargerConnectSessionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "JedlixSDK.RedirectInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RedirectInfo",
+                    "printedName": "JedlixSDK.RedirectInfo",
+                    "usr": "s:9JedlixSDK12RedirectInfoV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JedlixSDK21ChargerConnectSessionV2id9chargerId016chargingLocationH010isFinished8startUrl08redirectN00O4InfoACSS_SSSgSSSbA2kA08RedirectP0VSgtcfc",
+            "mangledName": "$s9JedlixSDK21ChargerConnectSessionV2id9chargerId016chargingLocationH010isFinished8startUrl08redirectN00O4InfoACSS_SSSgSSSbA2kA08RedirectP0VSgtcfc",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChargerConnectSession",
+                "printedName": "JedlixSDK.ChargerConnectSession",
+                "usr": "s:9JedlixSDK21ChargerConnectSessionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JedlixSDK21ChargerConnectSessionV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9JedlixSDK21ChargerConnectSessionV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "JedlixSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JedlixSDK21ChargerConnectSessionV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9JedlixSDK21ChargerConnectSessionV6encode2toys7Encoder_p_tKF",
+            "moduleName": "JedlixSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9JedlixSDK21ChargerConnectSessionV",
+        "mangledName": "$s9JedlixSDK21ChargerConnectSessionV",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ConnectSessionDescriptor",
+            "printedName": "ConnectSessionDescriptor",
+            "usr": "s:9JedlixSDK24ConnectSessionDescriptorP",
+            "mangledName": "$s9JedlixSDK24ConnectSessionDescriptorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectSessionType",
+        "printedName": "ConnectSessionType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "vehicle",
+            "printedName": "vehicle",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JedlixSDK.ConnectSessionType.Type) -> JedlixSDK.ConnectSessionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectSessionType",
+                    "printedName": "JedlixSDK.ConnectSessionType",
+                    "usr": "s:9JedlixSDK18ConnectSessionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JedlixSDK.ConnectSessionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectSessionType",
+                        "printedName": "JedlixSDK.ConnectSessionType",
+                        "usr": "s:9JedlixSDK18ConnectSessionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JedlixSDK18ConnectSessionTypeO7vehicleyA2CmF",
+            "mangledName": "$s9JedlixSDK18ConnectSessionTypeO7vehicleyA2CmF",
+            "moduleName": "JedlixSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "charger",
+            "printedName": "charger",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JedlixSDK.ConnectSessionType.Type) -> (Swift.String) -> JedlixSDK.ConnectSessionType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> JedlixSDK.ConnectSessionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectSessionType",
+                        "printedName": "JedlixSDK.ConnectSessionType",
+                        "usr": "s:9JedlixSDK18ConnectSessionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(chargingLocationId: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JedlixSDK.ConnectSessionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectSessionType",
+                        "printedName": "JedlixSDK.ConnectSessionType",
+                        "usr": "s:9JedlixSDK18ConnectSessionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JedlixSDK18ConnectSessionTypeO7chargeryACSS_tcACmF",
+            "mangledName": "$s9JedlixSDK18ConnectSessionTypeO7chargeryACSS_tcACmF",
+            "moduleName": "JedlixSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9JedlixSDK18ConnectSessionTypeO",
+        "mangledName": "$s9JedlixSDK18ConnectSessionTypeO",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "JedlixSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "JedlixSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPError",
+        "printedName": "HTTPError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notAuthenticated",
+            "printedName": "notAuthenticated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JedlixSDK.HTTPError.Type) -> JedlixSDK.HTTPError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPError",
+                    "printedName": "JedlixSDK.HTTPError",
+                    "usr": "s:9JedlixSDK9HTTPErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JedlixSDK.HTTPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "JedlixSDK.HTTPError",
+                        "usr": "s:9JedlixSDK9HTTPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JedlixSDK9HTTPErrorO16notAuthenticatedyA2CmF",
+            "mangledName": "$s9JedlixSDK9HTTPErrorO16notAuthenticatedyA2CmF",
+            "moduleName": "JedlixSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JedlixSDK.HTTPError.Type) -> JedlixSDK.HTTPError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPError",
+                    "printedName": "JedlixSDK.HTTPError",
+                    "usr": "s:9JedlixSDK9HTTPErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JedlixSDK.HTTPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "JedlixSDK.HTTPError",
+                        "usr": "s:9JedlixSDK9HTTPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JedlixSDK9HTTPErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s9JedlixSDK9HTTPErrorO15invalidResponseyA2CmF",
+            "moduleName": "JedlixSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "errorResponse",
+            "printedName": "errorResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JedlixSDK.HTTPError.Type) -> (Swift.String?, Swift.String) -> JedlixSDK.HTTPError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?, Swift.String) -> JedlixSDK.HTTPError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "JedlixSDK.HTTPError",
+                        "usr": "s:9JedlixSDK9HTTPErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(title: Swift.String?, detail: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JedlixSDK.HTTPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "JedlixSDK.HTTPError",
+                        "usr": "s:9JedlixSDK9HTTPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JedlixSDK9HTTPErrorO13errorResponseyACSSSg_SStcACmF",
+            "mangledName": "$s9JedlixSDK9HTTPErrorO13errorResponseyACSSSg_SStcACmF",
+            "moduleName": "JedlixSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK9HTTPErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s9JedlixSDK9HTTPErrorO16errorDescriptionSSSgvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK9HTTPErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s9JedlixSDK9HTTPErrorO16errorDescriptionSSSgvg",
+                "moduleName": "JedlixSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPError",
+                "printedName": "JedlixSDK.HTTPError",
+                "usr": "s:9JedlixSDK9HTTPErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JedlixSDK9HTTPErrorO4withAC10Foundation4DataV_tKcfc",
+            "mangledName": "$s9JedlixSDK9HTTPErrorO4withAC10Foundation4DataV_tKcfc",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9JedlixSDK9HTTPErrorO",
+        "mangledName": "$s9JedlixSDK9HTTPErrorO",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPErrorResponse",
+        "printedName": "HTTPErrorResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK17HTTPErrorResponseV5titleSSvp",
+            "mangledName": "$s9JedlixSDK17HTTPErrorResponseV5titleSSvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK17HTTPErrorResponseV5titleSSvg",
+                "mangledName": "$s9JedlixSDK17HTTPErrorResponseV5titleSSvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "detail",
+            "printedName": "detail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JedlixSDK17HTTPErrorResponseV6detailSSvp",
+            "mangledName": "$s9JedlixSDK17HTTPErrorResponseV6detailSSvp",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JedlixSDK17HTTPErrorResponseV6detailSSvg",
+                "mangledName": "$s9JedlixSDK17HTTPErrorResponseV6detailSSvg",
+                "moduleName": "JedlixSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPErrorResponse",
+                "printedName": "JedlixSDK.HTTPErrorResponse",
+                "usr": "s:9JedlixSDK17HTTPErrorResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JedlixSDK17HTTPErrorResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9JedlixSDK17HTTPErrorResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "JedlixSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JedlixSDK17HTTPErrorResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9JedlixSDK17HTTPErrorResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "JedlixSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9JedlixSDK17HTTPErrorResponseV",
+        "mangledName": "$s9JedlixSDK17HTTPErrorResponseV",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "isConfigured",
+        "printedName": "isConfigured",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:9JedlixSDK12isConfiguredSbvp",
+        "mangledName": "$s9JedlixSDK12isConfiguredSbvp",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9JedlixSDK12isConfiguredSbvg",
+            "mangledName": "$s9JedlixSDK12isConfiguredSbvg",
+            "moduleName": "JedlixSDK",
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "configure",
+        "printedName": "configure(baseURL:apiKey:authentication:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URL",
+            "printedName": "Foundation.URL",
+            "usr": "s:10Foundation3URLV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.String?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Authentication",
+            "printedName": "JedlixSDK.Authentication",
+            "usr": "s:9JedlixSDK14AuthenticationP"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9JedlixSDK9configure7baseURL6apiKey14authenticationy10Foundation0E0V_SSSgAA14Authentication_ptF",
+        "mangledName": "$s9JedlixSDK9configure7baseURL6apiKey14authenticationy10Foundation0E0V_SSSgAA14Authentication_ptF",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getVehicleConnectSessions",
+        "printedName": "getVehicleConnectSessions(userId:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[JedlixSDK.VehicleConnectSession]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VehicleConnectSession",
+                "printedName": "JedlixSDK.VehicleConnectSession",
+                "usr": "s:9JedlixSDK21VehicleConnectSessionV"
+              }
+            ],
+            "usr": "s:Sa"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9JedlixSDK25getVehicleConnectSessions6userIdSayAA0dE7SessionVGSS_tYaKF",
+        "mangledName": "$s9JedlixSDK25getVehicleConnectSessions6userIdSayAA0dE7SessionVGSS_tYaKF",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getChargerConnectSessions",
+        "printedName": "getChargerConnectSessions(userId:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[JedlixSDK.ChargerConnectSession]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChargerConnectSession",
+                "printedName": "JedlixSDK.ChargerConnectSession",
+                "usr": "s:9JedlixSDK21ChargerConnectSessionV"
+              }
+            ],
+            "usr": "s:Sa"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9JedlixSDK25getChargerConnectSessions6userIdSayAA0dE7SessionVGSS_tYaKF",
+        "mangledName": "$s9JedlixSDK25getChargerConnectSessions6userIdSayAA0dE7SessionVGSS_tYaKF",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Authentication",
+        "printedName": "Authentication",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getAccessToken",
+            "printedName": "getAccessToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JedlixSDK14AuthenticationP14getAccessTokenSSSgyYaF",
+            "mangledName": "$s9JedlixSDK14AuthenticationP14getAccessTokenSSSgyYaF",
+            "moduleName": "JedlixSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : JedlixSDK.Authentication>",
+            "sugared_genericSig": "<Self where Self : JedlixSDK.Authentication>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9JedlixSDK14AuthenticationP",
+        "mangledName": "$s9JedlixSDK14AuthenticationP",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSession",
+        "printedName": "URLSession",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "response",
+            "printedName": "response(for:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.Data, Foundation.URLResponse)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLResponse",
+                    "printedName": "Foundation.URLResponse",
+                    "usr": "c:objc(cs)NSURLResponse"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URLSessionTaskDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSessionTaskDelegate",
+                    "printedName": "Foundation.URLSessionTaskDelegate",
+                    "usr": "c:objc(pl)NSURLSessionTaskDelegate"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12NSURLSessionC9JedlixSDKE8response3for8delegate10Foundation4DataV_So13NSURLResponseCtAG10URLRequestV_So0A12TaskDelegate_pSgtYaKF",
+            "mangledName": "$sSo12NSURLSessionC9JedlixSDKE8response3for8delegate10Foundation4DataV_So13NSURLResponseCtAG10URLRequestV_So0A12TaskDelegate_pSgtYaKF",
+            "moduleName": "JedlixSDK",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSURLSession",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "intro_iOS": "7.0",
+        "objc_name": "NSURLSession",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2091,
+      "length": 9,
+      "value": "\"\/api\/v1\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2145,
+      "length": 37,
+      "value": "\"\/users\/%@\/vehicles\/connect-sessions\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2226,
+      "length": 40,
+      "value": "\"\/users\/%@\/vehicles\/%@\/connect-sessions\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2315,
+      "length": 59,
+      "value": "\"\/users\/%@\/charging-locations\/%@\/chargers\/connect-sessions\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2412,
+      "length": 28,
+      "value": "\"\/users\/%@\/connect-sessions\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2477,
+      "length": 31,
+      "value": "\"\/users\/%@\/connect-sessions\/%@\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2549,
+      "length": 36,
+      "value": "\"\/users\/%@\/connect-sessions\/%@\/info\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3125,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3215,
+      "length": 20,
+      "value": "\"dismissButtonStyle\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "Array",
+      "offset": 3357,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3727,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3817,
+      "length": 20,
+      "value": "\"dismissButtonStyle\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "Array",
+      "offset": 3959,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4348,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4438,
+      "length": 20,
+      "value": "\"dismissButtonStyle\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "Array",
+      "offset": 4580,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5257,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5346,
+      "length": 20,
+      "value": "\"dismissButtonStyle\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "Array",
+      "offset": 5488,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5825,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "Array",
+      "offset": 6025,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6487,
+      "length": 8,
+      "value": "\"ApiKey\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6532,
+      "length": 23,
+      "value": "\"Bearer \""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6554,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6577,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6619,
+      "length": 33,
+      "value": "\"application\/json; charset=utf-8\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6674,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6715,
+      "length": 7,
+      "value": "\"1.5.0\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6744,
+      "length": 22,
+      "value": "\"Jedlix-ClientVersion\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 7325,
+      "length": 9,
+      "value": "\"vehicle\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 7390,
+      "length": 9,
+      "value": "\"charger\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 7432,
+      "length": 29,
+      "value": "\"Invalid ConnectSession type\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 7534,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 7697,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8689,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 8746,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 8774,
+      "length": 5,
+      "value": "\"vId\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8805,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 8834,
+      "length": 261,
+      "value": "\"https:\/\/auth.tesla.com\/oauth2\/v1\/authorize?redirect_uri=https:\/\/www.tesla.com\/teslaaccount\/owner-xp\/auth\/callback&response_type=code&client_id=ownership&scope=offline_access%20openid%20ou_code%20email&audience=https%3A%2F%2Fownership.tesla.com%2F&locale=nl-NL\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9122,
+      "length": 43,
+      "value": "\"https:\/\/auth.tesla.com\/oauth2\/v1\/register\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9236,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "Array",
+      "offset": 9274,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9314,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9524,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9581,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9644,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9673,
+      "length": 261,
+      "value": "\"https:\/\/auth.tesla.com\/oauth2\/v1\/authorize?redirect_uri=https:\/\/www.tesla.com\/teslaaccount\/owner-xp\/auth\/callback&response_type=code&client_id=ownership&scope=offline_access%20openid%20ou_code%20email&audience=https%3A%2F%2Fownership.tesla.com%2F&locale=nl-NL\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9961,
+      "length": 43,
+      "value": "\"https:\/\/auth.tesla.com\/oauth2\/v1\/register\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10075,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "Array",
+      "offset": 10113,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10153,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10368,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 10425,
+      "length": 3,
+      "value": "\"2\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 10453,
+      "length": 5,
+      "value": "\"cId\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10536,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 10565,
+      "length": 261,
+      "value": "\"https:\/\/auth.tesla.com\/oauth2\/v1\/authorize?redirect_uri=https:\/\/www.tesla.com\/teslaaccount\/owner-xp\/auth\/callback&response_type=code&client_id=ownership&scope=offline_access%20openid%20ou_code%20email&audience=https%3A%2F%2Fownership.tesla.com%2F&locale=nl-NL\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 10853,
+      "length": 43,
+      "value": "\"https:\/\/auth.tesla.com\/oauth2\/v1\/register\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10967,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "Array",
+      "offset": 11005,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11045,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11188,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 11263,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 11295,
+      "length": 5,
+      "value": "\"vId\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11330,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11573,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 11648,
+      "length": 3,
+      "value": "\"2\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 11680,
+      "length": 5,
+      "value": "\"cId\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 11723,
+      "length": 8,
+      "value": "\"cLocId\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11761,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12058,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12150,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12397,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12489,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionView.swift",
+      "kind": "StringLiteral",
+      "offset": 686,
+      "length": 27,
+      "value": "\"Jedlix SDK not configured\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionView.swift",
+      "kind": "StringLiteral",
+      "offset": 1396,
+      "length": 27,
+      "value": "\"Jedlix SDK not configured\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionView.swift",
+      "kind": "StringLiteral",
+      "offset": 2064,
+      "length": 27,
+      "value": "\"Jedlix SDK not configured\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2780,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/ConnectSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 316,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/ConnectSession.swift",
+      "kind": "Array",
+      "offset": 358,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/ConnectSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 397,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 398,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 541,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1145,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1466,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1802,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4793,
+      "length": 47,
+      "value": "\"document.documentElement.outerHTML.toString()\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6085,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6187,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6636,
+      "length": 7,
+      "value": "\"Retry\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6971,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7095,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 145,
+      "length": 23,
+      "value": "\"JedlixSDK.ConnectSessionViewModel\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/JedlixConnectView\/ConnectSessionViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8133,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/HTTPError.swift",
+      "kind": "StringLiteral",
+      "offset": 382,
+      "length": 19,
+      "value": "\"Not authenticated\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/HTTPError.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 18,
+      "value": "\"Invalid response\""
+    },
+    {
+      "filePath": "\/Users\/Tom\/Developer\/Jedlix\/Source\/JedlixSDK\/ios\/JedlixSDK\/Networking\/HTTPError.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 4,
+      "value": "\": \""
+    }
+  ]
+}
