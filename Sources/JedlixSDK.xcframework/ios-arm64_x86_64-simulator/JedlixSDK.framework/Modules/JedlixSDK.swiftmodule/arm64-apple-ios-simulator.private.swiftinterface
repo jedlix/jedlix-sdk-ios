@@ -116,7 +116,7 @@ public enum ConnectSessionResult {
 public var isConfigured: Swift.Bool {
   get
 }
-public func configure(baseURL: Foundation.URL, apiKey: Swift.String? = nil, authentication: JedlixSDK.Authentication)
+public func configure(baseURL: Foundation.URL, headers: [Swift.String : Swift.String] = [:], apiKey: Swift.String? = nil, authentication: JedlixSDK.Authentication)
 #if compiler(>=5.3) && $AsyncAwait
 public func getVehicleConnectSessions(userId: Swift.String) async throws -> [JedlixSDK.VehicleConnectSession]
 #endif

@@ -14,19 +14,20 @@ Use [Swift Package Manager](https://www.swift.org/package-manager/) to add Jedli
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/jedlix/jedlix-sdk-ios.git", .upToNextMajor(from: "1.6.1"))
+    .package(url: "https://github.com/jedlix/jedlix-sdk-ios.git", .upToNextMajor(from: "1.7.0"))
 ]
 ```
 
 ## Usage
 
-When you sign up for a [Smart Charging API](https://api.jedlix.com/) account, you get a custom `baseURL` and `apiKey`. Configure the SDK with these values and an `Authentication` implementation. API key is not required if you use your own base URL.
+When you sign up for a [Smart Charging API](https://api.jedlix.com/) account, you get a custom `baseURL` and `apiKey`. Configure the SDK with these values and an `Authentication` implementation. You can also provide custom HTTP headers. API key is not required if you use your own base URL.
 
 ```swift
 import JedlixSDK
 
 JedlixSDK.configure(
     baseURL: /* Base URL */,
+    headers: /* Headers */,
     apiKey: /* API key */,
     authentication: /* Authentication implementation */
 )

@@ -90,7 +90,7 @@ class HTTPClient {
         var components = URLComponents()
         components.scheme = baseURL.scheme
         components.host = baseURL.host
-        components.path = path
+        components.path = baseURL.path + path
         components.queryItems = queryItems
         return components.url!
     }
@@ -105,7 +105,7 @@ class HTTPClient {
         }
         request.addValue("Bearer \(accessToken)", forHTTPHeaderField: "Authorization")
         request.addValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
-        request.addValue("1.5.0", forHTTPHeaderField: "Jedlix-ClientVersion")
+        request.addValue("1.7.0", forHTTPHeaderField: "Jedlix-ClientVersion")
         return request
     }
 }
