@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VcsUnBKLeSe3oryUnucx8aFAFQM=
+		LBH4nH/zne6NjhyGkCsRiP3+suE=
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AZnFS7gQ5DI91KgaJq9JKFEFuSc=
+		SsD58jzX3pQ6MyZpLrjbEahHLOU=
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CQsue8Bll3EO2TfZ5JXyB85QGcc=
+		a6pFiGkALIzcnFU4WjY8cUlSAkc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HsFct+X6w1Ih5BC84Vyr7BU04DQhdLMWn+wsktbFbGM=
+			ODUuEcCFo6Zm505uUl8Wff+kLhTYzpFTgl8x5YeX7bY=
 			</data>
 		</dict>
 		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4BgbICM2L0lkLevMQElNiOVxRrTioyCRhwjrJMjR6I4=
+			P06m5oFvADLYmZhSaffsxu0fb40o6hwKs4HXsYinHos=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
