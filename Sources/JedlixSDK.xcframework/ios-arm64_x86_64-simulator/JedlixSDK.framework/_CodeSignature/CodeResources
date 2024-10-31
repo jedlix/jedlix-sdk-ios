@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/JedlixSDK-Swift.h</key>
 		<data>
-		7iSL0VmOr2bwuscxlw08XhR0jMA=
+		YHUQIQXDT/EUDTG78Ue3GRIx3v4=
 		</data>
 		<key>Headers/JedlixSDK.h</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XDFvoH37eK1SG51a5xzIZeEQy6c=
+		yTpzDNOizLgyp918yTgt+yvYssQ=
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ywg7kYEr4LaUgiCXBDRmpBf3FdI=
+		rWPxAtnsKpwtQEHWmButgacIqCg=
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EO1Mn6pSYvp65Uc73pwRqe7AWqI=
+		gxuLB/+uZRKPQfRB4ar6S9yffdU=
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ywg7kYEr4LaUgiCXBDRmpBf3FdI=
+		rWPxAtnsKpwtQEHWmButgacIqCg=
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		t1ZEcGfGoYyB/5hjKsevIoZgR1U=
+		Whx9IOIPitTwWIuw1e9bv7yOZxM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F6EXns7xyW+0OMSmHsG3kztckPbHpAKJ+Cm1g2wELaU=
+			00GR5BuTRrX0unDFwFfahOr3vV8Lfz9shimrLhmU2/0=
 			</data>
 		</dict>
 		<key>Headers/JedlixSDK.h</key>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VCsS97cVoDMiYVQrxSxgHJbo6STc60mvlscQ/DHriKU=
+			UUN6oxE2SA5XMbhVXD1zP+kBTPh+K/+AS9GXVkmW8bY=
 			</data>
 		</dict>
 		<key>Modules/JedlixSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3ciqNlAO+6+QI2UFVUm/vvhOyxbQlmx8WMtINQ3t5TM=
+			uxoql2hxptY8RIFQov+xhGoBYrO7rXcuzzl7rpGfFFo=
 			</data>
 		</dict>
 		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VCsS97cVoDMiYVQrxSxgHJbo6STc60mvlscQ/DHriKU=
+			UUN6oxE2SA5XMbhVXD1zP+kBTPh+K/+AS9GXVkmW8bY=
 			</data>
 		</dict>
 		<key>Modules/JedlixSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wXB3ukEEvkYf8fPBzwVIIhbPEoBLMkA0a/j28LA49Rw=
+			neq5aZ1Hipj7uX0ck0I90cqYJzQjLuz7MdUUg8NZr+A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -245,6 +245,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JedlixSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -4142,8 +4152,15 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2777,
+      "length": 17,
+      "value": "\"invalid-version\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/ios\/JedlixSDK\/Networking\/JedlixHTTPClient.swift",
       "kind": "Array",
-      "offset": 6117,
+      "offset": 6201,
       "length": 2,
       "value": "[]"
     },
