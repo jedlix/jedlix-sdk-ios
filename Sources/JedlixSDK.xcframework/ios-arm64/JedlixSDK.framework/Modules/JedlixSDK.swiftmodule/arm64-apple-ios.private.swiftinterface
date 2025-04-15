@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name JedlixSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name JedlixSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
 @_exported import JedlixSDK
 import Swift
@@ -9,6 +9,7 @@ import SwiftUI
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public enum DismissButtonStyle : Swift.String {
   case back
   case close
@@ -19,18 +20,17 @@ public enum DismissButtonStyle : Swift.String {
   }
 }
 extension Foundation.URLSession {
-  #if compiler(>=5.3) && $AsyncAwait
   @discardableResult
-  public func response(for request: Foundation.URLRequest, delegate: Foundation.URLSessionTaskDelegate? = nil) async throws -> (Foundation.Data, Foundation.URLResponse)
-  #endif
+  public func response(for request: Foundation.URLRequest, delegate: (any Foundation.URLSessionTaskDelegate)? = nil) async throws -> (Foundation.Data, Foundation.URLResponse)
 }
-@_Concurrency.MainActor(unsafe) public struct ConnectSessionView : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public init(userIdentifier: Swift.String, sessionType: JedlixSDK.ConnectSessionType, onConnectionFinished: @escaping (JedlixSDK.ConnectSessionResult) -> Swift.Void = { _ in })
-  @_Concurrency.MainActor(unsafe) public init(userIdentifier: Swift.String, vehicleIdentifier: Swift.String, onConnectionFinished: @escaping (JedlixSDK.ConnectSessionResult) -> Swift.Void = { _ in })
-  @_Concurrency.MainActor(unsafe) public init(userIdentifier: Swift.String, sessionIdentifier: Swift.String, onConnectionFinished: @escaping (JedlixSDK.ConnectSessionResult) -> Swift.Void = { _ in })
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct ConnectSessionView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(userIdentifier: Swift.String, sessionType: JedlixSDK.ConnectSessionType, onConnectionFinished: @escaping (JedlixSDK.ConnectSessionResult) -> Swift.Void = { _ in })
+  @_Concurrency.MainActor @preconcurrency public init(userIdentifier: Swift.String, vehicleIdentifier: Swift.String, onConnectionFinished: @escaping (JedlixSDK.ConnectSessionResult) -> Swift.Void = { _ in })
+  @_Concurrency.MainActor @preconcurrency public init(userIdentifier: Swift.String, sessionIdentifier: Swift.String, onConnectionFinished: @escaping (JedlixSDK.ConnectSessionResult) -> Swift.Void = { _ in })
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s9JedlixSDK18ConnectSessionViewV4bodyQrvp", 0) __
 }
 public struct RedirectInfo : Swift.Codable {
@@ -38,16 +38,16 @@ public struct RedirectInfo : Swift.Codable {
   public let includeCookies: [Swift.String]
   public let includeRedirectUrl: Swift.Bool
   public init(includeBody: Swift.Bool = false, includeCookies: [Swift.String] = [], includeRedirectUrl: Swift.Bool = false)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Info : Swift.Codable {
   public let body: Swift.String?
   public let bodyError: Swift.String?
   public let cookies: [Swift.String : Swift.String]
   public let redirectUrl: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol ConnectSessionDescriptor : Swift.Decodable, Swift.Encodable {
   var id: Swift.String { get }
@@ -63,8 +63,8 @@ public struct ConnectSession : JedlixSDK.ConnectSessionDescriptor {
   public let redirectUrl: Swift.String?
   public let redirectInfo: JedlixSDK.RedirectInfo?
   public init(id: Swift.String, isFinished: Swift.Bool, startUrl: Swift.String? = nil, redirectUrl: Swift.String? = nil, redirectInfo: JedlixSDK.RedirectInfo? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct VehicleConnectSession : JedlixSDK.ConnectSessionDescriptor {
   public let id: Swift.String
@@ -74,8 +74,8 @@ public struct VehicleConnectSession : JedlixSDK.ConnectSessionDescriptor {
   public let redirectUrl: Swift.String?
   public let redirectInfo: JedlixSDK.RedirectInfo?
   public init(id: Swift.String, vehicleId: Swift.String?, isFinished: Swift.Bool, startUrl: Swift.String? = nil, redirectUrl: Swift.String? = nil, redirectInfo: JedlixSDK.RedirectInfo? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct ChargerConnectSession : JedlixSDK.ConnectSessionDescriptor {
   public let id: Swift.String
@@ -86,8 +86,8 @@ public struct ChargerConnectSession : JedlixSDK.ConnectSessionDescriptor {
   public let redirectUrl: Swift.String?
   public let redirectInfo: JedlixSDK.RedirectInfo?
   public init(id: Swift.String, chargerId: Swift.String?, chargingLocationId: Swift.String, isFinished: Swift.Bool, startUrl: Swift.String? = nil, redirectUrl: Swift.String? = nil, redirectInfo: JedlixSDK.RedirectInfo? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum ConnectSessionType {
   case vehicle
@@ -105,8 +105,8 @@ public enum HTTPError : Swift.Error, Foundation.LocalizedError {
 public struct HTTPErrorResponse : Swift.Codable {
   public let title: Swift.String
   public let detail: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum ConnectSessionResult {
   case finished(sessionId: Swift.String)
@@ -116,18 +116,13 @@ public enum ConnectSessionResult {
 public var isConfigured: Swift.Bool {
   get
 }
-public func configure(baseURL: Foundation.URL, headers: [Swift.String : Swift.String] = [:], apiKey: Swift.String? = nil, authentication: JedlixSDK.Authentication)
-#if compiler(>=5.3) && $AsyncAwait
+public func configure(baseURL: Foundation.URL, headers: [Swift.String : Swift.String] = [:], apiKey: Swift.String? = nil, authentication: any JedlixSDK.Authentication)
 public func getVehicleConnectSessions(userId: Swift.String) async throws -> [JedlixSDK.VehicleConnectSession]
-#endif
-#if compiler(>=5.3) && $AsyncAwait
 public func getChargerConnectSessions(userId: Swift.String) async throws -> [JedlixSDK.ChargerConnectSession]
-#endif
 public protocol Authentication {
-  #if compiler(>=5.3) && $AsyncAwait
   func getAccessToken() async -> Swift.String?
-  #endif
 }
 extension JedlixSDK.DismissButtonStyle : Swift.Equatable {}
 extension JedlixSDK.DismissButtonStyle : Swift.Hashable {}
 extension JedlixSDK.DismissButtonStyle : Swift.RawRepresentable {}
+extension JedlixSDK.ConnectSessionView : Swift.Sendable {}

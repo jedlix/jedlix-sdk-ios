@@ -1,7 +1,7 @@
 framework module JedlixSDK {
   umbrella header "JedlixSDK.h"
-
   export *
+
   module * { export * }
 }
 
