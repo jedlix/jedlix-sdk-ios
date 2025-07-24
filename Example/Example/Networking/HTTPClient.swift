@@ -105,7 +105,7 @@ class HTTPClient {
         }
         request.addValue("Bearer \(accessToken)", forHTTPHeaderField: "Authorization")
         request.addValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
-        request.addValue("1.8.3", forHTTPHeaderField: "Jedlix-ClientVersion")
+        request.addValue("1.8.4", forHTTPHeaderField: "Jedlix-ClientVersion")
         return request
     }
 }
