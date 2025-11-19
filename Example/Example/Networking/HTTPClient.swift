@@ -104,8 +104,12 @@ class HTTPClient {
             request.addValue(apiKey, forHTTPHeaderField: "ApiKey")
         }
         request.addValue("Bearer \(accessToken)", forHTTPHeaderField: "Authorization")
+        request.addValue(Locale.current.identifier, forHTTPHeaderField: "Accept-Language")
+        request.addValue("1.8.6", forHTTPHeaderField: "Jedlix-ClientVersion")
+        request.addValue(UUID().uuidString, forHTTPHeaderField: "Jedlix-CorrelationId")
+        request.addValue("com.jedlix.sdk-android", forHTTPHeaderField: "Jedlix-ClientName")
         request.addValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
-        request.addValue("1.8.5", forHTTPHeaderField: "Jedlix-ClientVersion")
+        
         return request
     }
 }
